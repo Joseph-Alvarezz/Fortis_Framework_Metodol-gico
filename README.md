@@ -44,7 +44,7 @@ flowchart LR
 | [FC-LAB-005](laboratorios/lab-05-ingenieria-social/) | Ingeniería social: principios | D05 | Factor humano | Documentado (v1.0) |
 | [FC-LAB-006](laboratorios/lab-06-maltego/) | Maltego: instalación y aplicación | D02 | OSINT | Documentado (v1.0) |
 | [FC-LAB-007](laboratorios/lab-07-burp/) | Burp Suite | D03/D04 | Pruebas web | Documentado (v1.0) |
-| [FC-LAB-008](laboratorios/lab-08-deteccion/) | Detección y análisis de registros (Sysmon / Wazuh) | D07 | Defensivo / Purple | Propuesto |
+| [FC-LAB-008](laboratorios/lab-08-deteccion/) | Detección y análisis de registros (nginx) | D07 | Defensivo / Purple | Documentado (v1.0) |
 | [FC-LAB-009](laboratorios/lab-09-apis/) | Pruebas de APIs REST: autenticación y control de acceso | D04 | Ofensivo controlado | Propuesto |
 | [FC-LAB-010](laboratorios/lab-10-ia-prompt-injection/) | Prompt injection en aplicaciones con LLM | D08 | Seguridad de IA | Propuesto |
 | [FC-LAB-011](laboratorios/lab-11-forense/) | Adquisición forense, hashing y cadena de custodia | D06 | Forense | Propuesto |
