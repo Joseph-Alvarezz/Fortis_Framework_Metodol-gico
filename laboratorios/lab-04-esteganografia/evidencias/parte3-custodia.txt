@@ -1,0 +1,4 @@
+Evidencia: logo-estego.bmp (copia de trabajo; el original queda en /home/kali/fortis/lab04/entregados)
+Hash al registrar: 8fd58cf136072a002e6eb9dc10897e4a4f726fce867a3c3928eaa16bbe9f9d7a
+Hash del portador limpio: 52321e9af1baedf5da3896fbff58fb6f13f63c080a6691bed8b107c9189324f0
+Conclusión: los hashes difieren, lo que prueba la alteración aunque la imagen se vea igual.

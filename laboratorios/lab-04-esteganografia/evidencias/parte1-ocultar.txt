@@ -1,0 +1,3 @@
+Portador: logo.bmp
+Mensaje: Mensaje sintético FORTIS LAB04 · 2026-11-25 18:39 UTC
+Clave del ejercicio: e28ed822b2f7

@@ -1,0 +1,41 @@
+## Comparación de hashes contra el registro original
+2c2
+< 52321e9af1baedf5da3896fbff58fb6f13f63c080a6691bed8b107c9189324f0  originales/logo.bmp
+---
+> 8fd58cf136072a002e6eb9dc10897e4a4f726fce867a3c3928eaa16bbe9f9d7a  originales/logo.bmp
+
+Archivo sospechoso: logo.bmp
+
+## Tamaños
+entregados/:
+total 684
+-rw-rw-r-- 1 kali kali 230454 Nov 25 13:39 fondo.bmp
+-rw-rw-r-- 1 kali kali 230454 Nov 25 13:39 logo.bmp
+-rw-rw-r-- 1 kali kali 230454 Nov 25 13:39 paisaje.bmp
+
+originales/:
+total 684
+-rw-rw-r-- 1 kali kali 230454 Nov 25 13:39 fondo.bmp
+-rw-rw-r-- 1 kali kali 230454 Nov 25 13:39 logo.bmp
+-rw-rw-r-- 1 kali kali 230454 Nov 25 13:39 paisaje.bmp
+
+## Metadatos del sospechoso
+FileSize                        : 230 kB
+ImageSize                       : 320x240
+BitDepth                        : 24
+
+## steghide info
+"logo.bmp":
+  format: Windows 3.x bitmap
+  capacity: 9.4 KB
+  embedded file "secreto.txt":
+    size: 56.0 Byte
+    encrypted: rijndael-128, cbc
+    compressed: yes
+
+## Extracción
+Mensaje sintético FORTIS LAB04 · 2026-11-25 18:39 UTC
+RESULTADO: mensaje recuperado íntegro
+
+## Prueba con clave incorrecta
+steghide: could not extract any data with that passphrase!
