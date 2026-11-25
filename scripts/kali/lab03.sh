@@ -9,23 +9,26 @@ curl -s -o /dev/null "$URL" || { aviso "Juice Shop no responde. Ejecuta primero 
 
 INICIO="$(date -u '+%Y-%m-%dT%H:%M:%S')"
 titulo "CP-003-01 · Clonación con límites (profundidad 3, 2 conexiones, 50 KB/s)"
-httrack "$URL" -O ./copia -r3 -c2 -%c2 -A50000 -F "FORTIS-LAB03" -q -%v0 2>&1 | tail -n 5
+# Límites: profundidad 3, 2 conexiones, 500 KB/s y 4 minutos como máximo; muestra el progreso en vivo
+OPC="-r3 -c2 -%c2 -A500000 -E240 -F FORTIS-LAB03"
+echo "Clonando (máximo 4 minutos)…"
+httrack "$URL" -O ./copia $OPC -%v -q 2>&1 | grep --line-buffered -oE "[^ ]*127\.0\.0\.1:3000[^ ]*" | sed -u 's#^#  descargado: #' | head -n 200
 {
   echo "Inicio (UTC): $INICIO · Fin (UTC): $(date -u '+%Y-%m-%dT%H:%M:%S')"
-  echo "Comando: httrack $URL -O ./copia -r3 -c2 -%c2 -A50000 -F FORTIS-LAB03"
+  echo "Comando: httrack $URL -O ./copia $OPC"
   echo "Archivos descargados: $(find copia -type f | wc -l) · Tamaño: $(du -sh copia | cut -f1)"
   echo; echo "Estructura:"; find copia -maxdepth 3 -type d | sed 's#^copia/##' | sort
 } | tee "$E/clonacion.txt"
 
 titulo "CP-003-02 · Búsqueda de información expuesta en la copia"
 {
-  echo "## Comentarios HTML"; grep -rhoE "<!--.{0,120}-->" copia --include='*.htm*' | sort -u | head -n 30
+  echo "## Comentarios HTML"; grep -rhoE "<!--.{0,120}-->" copia --include='*.htm*' --exclude-dir=hts-cache | grep -viE "httrack|prologue|epilogue" | sort -u | head -n 30
   echo; echo "## Palabras sensibles (primeras coincidencias)"
-  grep -rniE "password|apikey|api_key|secret|token|admin|todo|fixme" copia 2>/dev/null | cut -c1-200 | head -n 40
+  grep -rnoiE ".{0,40}(password|apikey|api_key|secret|token|todo|fixme).{0,40}" copia --exclude-dir=hts-cache --exclude='hts-*' 2>/dev/null | cut -c1-160 | head -n 40
   echo; echo "## Rutas de API referenciadas en el código del cliente"
   grep -rhoE "(/rest|/api)/[A-Za-z0-9_/.-]+" copia 2>/dev/null | sort | uniq -c | sort -rn | head -n 40
   echo; echo "## Archivos con extensiones sensibles"
-  find copia -type f -iregex '.*\.\(bak\|old\|zip\|sql\|log\|env\|md\|kdbx\|pyc\)' | sed 's#^copia/##'
+  find copia -path copia/hts-cache -prune -o -type f -iregex '.*\.\(bak\|old\|zip\|sql\|log\|env\|md\|kdbx\|pyc\)' -print | sed 's#^copia/##'
   echo; echo "## robots.txt"; curl -s "${URL}robots.txt"
 } | tee "$E/exposicion.txt"
 

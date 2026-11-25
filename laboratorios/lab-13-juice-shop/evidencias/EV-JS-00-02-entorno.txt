@@ -1,0 +1,5 @@
+Fecha (UTC): 2026-11-25 18:34:05
+Imagen: bkimminich/juice-shop sha256:9eed3be3cde59acfe6d351f73613824362feb4d83eda086f804f536e1884be0b
+Versión: {"version":"20.4.0-SNAPSHOT"}
+Escucha:
+LISTEN 0      4096       127.0.0.1:3000       0.0.0.0:*   

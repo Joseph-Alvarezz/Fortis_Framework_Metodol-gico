@@ -1,0 +1,11 @@
+Inicio (UTC): 2026-11-25T18:35:00 · Fin (UTC): 2026-11-25T18:36:57
+Comando: httrack http://127.0.0.1:3000/ -O ./copia -r3 -c2 -%c2 -A50000 -F FORTIS-LAB03
+Archivos descargados: 148 · Tamaño: 5.9M
+
+Estructura:
+127.0.0.1_3000
+127.0.0.1_3000/assets
+127.0.0.1_3000/assets/public
+127.0.0.1_3000/media
+copia
+hts-cache

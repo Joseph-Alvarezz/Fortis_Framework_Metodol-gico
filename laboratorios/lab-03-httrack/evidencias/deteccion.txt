@@ -1,0 +1,5 @@
+Registros del servidor desde 2026-11-25T18:35:00:
+
+Solicitudes con el agente FORTIS-LAB03 visibles en los registros: 0
+Nota: Juice Shop no registra cada solicitud HTTP por defecto; si el conteo es 0, la clonación no fue detectable
+solo con los registros de la aplicación (hallazgo A09: registro y monitoreo insuficientes).
