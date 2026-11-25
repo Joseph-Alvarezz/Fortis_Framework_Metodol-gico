@@ -1,0 +1,2 @@
+﻿ID evidencia;Fecha y hora (UTC);Caso / hallazgo;Descripción y tipo;Archivo y ubicación;Hash SHA-256;Obtenida por;Custodio;Transferencias (fecha, de → a, motivo)
+EV-JS-00-01;2026-11-25 17:10;FC-LAB-013 / preparación;Paquete oficial juice-shop-20.4.0_node24_win32_x64.zip (verificado contra MD5 publicado 970d27e21515eb610d84d9709edf6f74);externo (no versionado);7f9f8afe2b0a03843a65c90f42b37a3301224da5820e65b2d117aef6c84748bd;Coordinador de evaluación;Custodio de evidencias;—

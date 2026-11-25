@@ -1,0 +1,25 @@
+# Secretos y configuración local
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+
+# Capturas de tráfico y evidencias originales (solo se versionan copias anonimizadas)
+*.pcap
+*.pcapng
+**/evidencias/originales/
+*.E01
+*.dd
+*.raw
+
+# Entornos y temporales
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.DS_Store
+Thumbs.db
+~$*
