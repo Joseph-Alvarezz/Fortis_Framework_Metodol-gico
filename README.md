@@ -4,7 +4,7 @@ FORTIS organiza la evaluación técnica de seguridad en un **ciclo iterativo de 
 cada prueba ofensiva autorizada se ejecuta en paralelo con la detección defensiva, y cada hallazgo se traza hasta la
 verificación del control que lo corrige.
 
-> Versión del documento: **0.3** (noviembre de 2026). Ver [CHANGELOG](CHANGELOG.md).
+> Versión del documento: **0.4** · [documento](docs/FORTIS_Framework_Metodologico_v0.4.docx) · [guion de exposición](docs/guion-exposicion.md) (noviembre de 2026). Ver [CHANGELOG](CHANGELOG.md).
 
 ## Ciclo metodológico
 
@@ -37,19 +37,19 @@ flowchart LR
 
 | ID | Laboratorio | Dominio | Enfoque | Estado |
 |---|---|---|---|---|
-| [FC-LAB-001](laboratorios/lab-01-shell/) | Comandos Shell y Kali Linux | D01 | Transversal | Desarrollado |
-| [FC-LAB-002](laboratorios/lab-02-dns/) | DNS Footprinting con nslookup y dig | D02 | Ofensivo controlado | Desarrollado |
-| [FC-LAB-003](laboratorios/lab-03-httrack/) | Clonación controlada HTTrack | D03 | Ofensivo/defensivo | Desarrollado |
-| [FC-LAB-004](laboratorios/lab-04-esteganografia/) | Esteganografía con Steghide: partes 1–3 | D06 | Forense y colaborativo | Desarrollado |
-| [FC-LAB-005](laboratorios/lab-05-ingenieria-social/) | Ingeniería social: principios | D05 | Factor humano | Desarrollado |
-| [FC-LAB-006](laboratorios/lab-06-maltego/) | Maltego: instalación y aplicación | D02 | OSINT | Desarrollado |
-| [FC-LAB-007](laboratorios/lab-07-burp/) | Burp Suite | D03/D04 | Pruebas web | Desarrollado |
-| [FC-LAB-008](laboratorios/lab-08-deteccion/) | Detección y análisis de registros (Sysmon / Wazuh) | D07 | Defensivo / Purple | Propuesto |
+| [FC-LAB-001](laboratorios/lab-01-shell/) | Comandos Shell y Kali Linux | D01 | Transversal | Ejecutado (nov. 2026) |
+| [FC-LAB-002](laboratorios/lab-02-dns/) | DNS Footprinting con nslookup y dig | D02 | Ofensivo controlado | Ejecutado (nov. 2026) |
+| [FC-LAB-003](laboratorios/lab-03-httrack/) | Clonación controlada HTTrack | D03 | Ofensivo/defensivo | Ejecutado (nov. 2026) |
+| [FC-LAB-004](laboratorios/lab-04-esteganografia/) | Esteganografía con Steghide: partes 1–3 | D06 | Forense y colaborativo | Ejecutado (nov. 2026) |
+| [FC-LAB-005](laboratorios/lab-05-ingenieria-social/) | Ingeniería social: principios | D05 | Factor humano | Ejecutado (nov. 2026) |
+| [FC-LAB-006](laboratorios/lab-06-maltego/) | Maltego: instalación y aplicación | D02 | OSINT | Documentado, sin ejecutar |
+| [FC-LAB-007](laboratorios/lab-07-burp/) | Burp Suite | D03/D04 | Pruebas web | Documentado, sin ejecutar |
+| [FC-LAB-008](laboratorios/lab-08-deteccion/) | Detección y análisis de registros (nginx) | D07 | Defensivo / Purple | Ejecutado (nov. 2026) |
 | [FC-LAB-009](laboratorios/lab-09-apis/) | Pruebas de APIs REST: autenticación y control de acceso | D04 | Ofensivo controlado | Propuesto |
 | [FC-LAB-010](laboratorios/lab-10-ia-prompt-injection/) | Prompt injection en aplicaciones con LLM | D08 | Seguridad de IA | Propuesto |
 | [FC-LAB-011](laboratorios/lab-11-forense/) | Adquisición forense, hashing y cadena de custodia | D06 | Forense | Propuesto |
 | [FC-LAB-012](laboratorios/lab-12-phishing/) | Simulación de phishing autorizada (GoPhish) | D05 | Factor humano | Propuesto |
-| [FC-LAB-013](laboratorios/lab-13-juice-shop/) | Caso integrador Purple Team: OWASP Juice Shop | D03/D04/D07 | Purple Team | En ejecución |
+| [FC-LAB-013](laboratorios/lab-13-juice-shop/) | Caso integrador Purple Team: OWASP Juice Shop | D03/D04/D07 | Purple Team | Entorno listo; casos pendientes |
 
 ## Uso rápido
 

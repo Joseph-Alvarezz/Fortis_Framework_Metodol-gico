@@ -1,0 +1,28 @@
+Registro analizado: access.log (234 solicitudes)
+
+## Solicitudes por agente de usuario
+    228 FORTIS-LAB03
+      5 Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+      1 curl/8.20.0
+
+## Regla R1 · Agente de herramienta automatizada (httrack, curl, wget, python, nikto, sqlmap, FORTIS)
+      1 curl/8.20.0
+    228 FORTIS-LAB03
+Coincidencias R1: 229
+
+## Regla R2 · Más de 60 solicitudes por minuto desde una misma IP
+ALERTA R2: 114 solicitudes de 172.18.0.1 en el minuto 2026-11-25T19:07
+ALERTA R2: 62 solicitudes de 172.18.0.1 en el minuto 2026-11-25T19:08
+Minutos que disparan R2: 2
+
+## Regla R3 · Respuestas 429 (límite de tasa aplicado)
+Respuestas 429: 0
+  código     234 200
+
+## Línea base (navegación normal) · ¿genera falsos positivos?
+Solicitudes normales: 5 · marcadas por R1: 0
+
+## Resultado
+DETECTADO por R1 (agente)
+DETECTADO por R2 (volumen)
+El límite de tasa no se activó

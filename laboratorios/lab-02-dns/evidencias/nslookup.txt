@@ -1,0 +1,43 @@
+== A
+Non-authoritative answer:
+Name:	zonetransfer.me
+Address: 167.172.5.31
+
+== MX
+Non-authoritative answer:
+zonetransfer.me	mail exchanger = 10 ALT1.ASPMX.L.GOOGLE.COM.
+zonetransfer.me	mail exchanger = 20 ASPMX2.GOOGLEMAIL.COM.
+zonetransfer.me	mail exchanger = 20 ASPMX4.GOOGLEMAIL.COM.
+zonetransfer.me	mail exchanger = 10 ALT2.ASPMX.L.GOOGLE.COM.
+zonetransfer.me	mail exchanger = 20 ASPMX5.GOOGLEMAIL.COM.
+zonetransfer.me	mail exchanger = 0 ASPMX.L.GOOGLE.COM.
+zonetransfer.me	mail exchanger = 20 ASPMX3.GOOGLEMAIL.COM.
+
+Authoritative answers can be found from:
+
+== NS
+Non-authoritative answer:
+zonetransfer.me	nameserver = nsztm2.digi.ninja.
+zonetransfer.me	nameserver = nsztm1.digi.ninja.
+
+Authoritative answers can be found from:
+
+== TXT
+Non-authoritative answer:
+zonetransfer.me	text = "google-site-verification=tyP28J7JAUHA9fw2sHXMgcCC0I6XBmmoVi04VlMewxA"
+
+Authoritative answers can be found from:
+
+== SOA
+Non-authoritative answer:
+zonetransfer.me
+	origin = nsztm1.digi.ninja
+	mail addr = robin.digi.ninja
+	serial = 2019100801
+	refresh = 172800
+	retry = 900
+	expire = 1209600
+	minimum = 3600
+
+Authoritative answers can be found from:
+

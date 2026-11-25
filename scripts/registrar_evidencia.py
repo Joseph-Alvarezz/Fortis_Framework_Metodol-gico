@@ -67,7 +67,7 @@ def main():
     fecha = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')
     fila = [ev, fecha, a.caso, a.desc, rel, digest, a.por, a.custodio, '—']
     with open(ANEXO_C, 'a', encoding='utf-8', newline='') as f:
-        csv.writer(f, delimiter=';').writerow(fila)
+        csv.writer(f, delimiter=';', lineterminator='\n').writerow(fila)
     print(f'{ev} registrada\n  archivo: {rel}\n  SHA-256: {digest}')
 
 

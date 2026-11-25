@@ -1,0 +1,3 @@
+Dominio: zonetransfer.me · Resolvedor: 1.1.1.1 · 2026-11-25 18:25:37 UTC
+[1;33m[!][0m Las dos ejecuciones difieren (revisa TTL o balanceo)
+[1;33m[!][0m AXFR PERMITIDA: se obtuvieron 106 registros de la zona completa (hallazgo)

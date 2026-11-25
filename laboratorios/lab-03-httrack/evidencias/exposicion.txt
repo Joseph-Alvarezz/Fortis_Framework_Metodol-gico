@@ -1,0 +1,100 @@
+## Comentarios HTML
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<!-- ==================== End prologue ==================== -->
+<!-- Mirror and index made by HTTrack Website Copier/3.51-0 [XR&CO] -->
+<!-- Mirrored from http://127.0.0.1:3000/ by HTTrack Website Copier/3.x [XR&CO], Wed, 25 Nov 2026 18:35:01 GMT -->
+<!-- Mirrored from http://127.0.0.1:3000/ by HTTrack Website Copier/3.x [XR&CO], Wed, 25 Nov 2026 18:35:04 GMT -->
+<!-- ==================== Start epilogue ==================== -->
+<!-- Thanks for using HTTrack Website Copier! -->
+
+## Palabras sensibles (primeras coincidencias)
+copia/hts-log.txt:6:	such as username/password authentication for websites mirrored in this project
+copia/127.0.0.1_3000/scripts.js:1:(function(c){if(!c.hasInitialised){var a={escapeRegExp:function(e){return e.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g,"\\$&")},hasClass:function(e,t){var o=" ";re
+copia/127.0.0.1_3000/main.js:2:`);return r>=0?t.slice(0,r):t}function $s$1(e,n){return e?n?`${e} ${n}`:e:n||``}function zs$1(e){return e.__forward_ref__=zs$1,e}function fe$2(e){return Ll$1(e)?e():e}fu
+copia/127.0.0.1_3000/main.js:4:  `)}`:``,this.name=`UnsubscriptionError`,this.errors=t});Y$2=class e{constructor(n){this.initialTeardown=n,this.closed=!1,this._parentage=null,this._finalizers=null}uns
+copia/127.0.0.1_3000/main.js:5:`).forEach(t=>{let r=t.indexOf(`:`);if(r>0){let o=t.slice(0,r),i=t.slice(r+1).trim();this.addHeaderEntry(o,i)}})}:typeof Headers<`u`&&n instanceof Headers?(this.headers=
+copia/127.0.0.1_3000/main.js:24:`],encapsulation:2})}return e})();;MD=(()=>{class e{create(t){return typeof MutationObserver>`u`?null:new MutationObserver(t)}static ɵfac=function(r){return new(r||e)}
+copia/127.0.0.1_3000/main.js:52:`],encapsulation:2})}return e})();es=class e{_target;_ngZone;_platform;_containerElement;_triggerElement=null;_isPointerDown=!1;_activeRipples=/* @__PURE__ */ new Map;_
+copia/127.0.0.1_3000/main.js:965:      [matCardTitle], [matCardSubtitle]`,`*`],decls:4,vars:0,consts:[[1,`mat-mdc-card-header-text`]],template:function(i,s){i&1&&(Nn$1(t),ke$1(0),Rt$2(1,`div`,0),ke$1(
+copia/127.0.0.1_3000/main.js:1001:`],encapsulation:2})})()}return n})();qf=(()=>{class n{static ɵfac=function(r){return new(r||n)};static ɵmod=ie$1({type:n});static ɵinj=ne$2({imports:[Eo$1]})}retu
+copia/127.0.0.1_3000/main.js:1010:    `,e.nodeType===9?e.head?.appendChild(r):e.appendChild(r),r}ngOnDestroy(){this.injectedStyles.get(this.document)?.remove()}static ɵfac=(()=>{let e;return function
+copia/127.0.0.1_3000/main.js:1519:`],encapsulation:2})})()}return a})();Oe$1=(()=>{class a{static ɵfac=function(n){return new(n||a)};static ɵmod=ie$1({type:a});static ɵinj=ne$2({imports:[pe,Eo$1]})
+copia/127.0.0.1_3000/main.js:2529:}`;K4=(function(){function c(){y2(this,c),this.definitions={}}return w2(c,[{key:`add`,value:function(){for(var e=this,f=arguments.length,i=new Array(f),r=0;r<f;r++)i[
+copia/127.0.0.1_3000/main.js:2668:`],encapsulation:2})}return n})();It=(()=>{class n{_platform=p$1(_e$1);_containerElement;_document=p$1(L$2);_styleLoader=p$1(un$1);ngOnDestroy(){this._containerElemen
+copia/127.0.0.1_3000/main.js:2792:`],encapsulation:2,changeDetection:1})})()}return n})();Tn=new b$2(`mat-snack-bar-default-options`,{providedIn:`root`,factory:()=>new Ce});Wt=(()=>{class n{_live=p$1(
+copia/127.0.0.1_3000/main.js:3767:`],encapsulation:2})}return n})();Wn={passive:!0};ln=(()=>{class n{_platform=p$1(_e$1);_ngZone=p$1(O$1);_renderer=p$1(lt$2).createRenderer(null,null);_styleLoader=p$1
+copia/127.0.0.1_3000/main.js:4186:`],encapsulation:2,changeDetection:1})})()}return i})();Ei=(()=>{class i extends Ge{static ɵfac=(()=>{let e;return function(o){return(e||(e=ao$2(i)))(o||i)}})();stat
+copia/127.0.0.1_3000/main.js:4190:`],changeDetection:1})}return i})();Ca=(()=>{class i{http=p$1(iD);hostServer=L$.hostServer;host=this.hostServer+`/api/Recycles`;find(e){return this.http.get(this.host
+copia/127.0.0.1_3000/main.js:4295:`],encapsulation:2})})()}return i})();$a=new b$2(`MAT_DATE_LOCALE`,{providedIn:`root`,factory:()=>p$1(lo$2)});be=`Method not implemented`;Vi=class{locale;_localeChang
+copia/127.0.0.1_3000/main.js:4309:`],encapsulation:2,changeDetection:1})})()}return e})();var _a=class{overlayRef;config;componentInstance=null;componentRef=null;containerInstance;disableClose;closed=
+copia/127.0.0.1_3000/main.js:4498:`],encapsulation:2,changeDetection:1})})()}return e})();var oh=`--mat-dialog-transition-duration`;function rh(e){return e==null?null:typeof e==`number`?e:e.endsWith(`
+copia/127.0.0.1_3000/main.js:4506:`],changeDetection:1})}return e})();var uh=(()=>{class e{http=p$1(iD);hostServer=L$.hostServer;getCountryMapping(){return this.http.get(this.hostServer+`/rest/country
+copia/127.0.0.1_3000/main.js:4510:`],changeDetection:1})}return e})();var qh=(()=>{class e{http=p$1(iD);fetchNotification(t){return this.http.get(t)}static ɵfac=function(i){return new(i||e)};static �
+copia/127.0.0.1_3000/main.js:4514:`],changeDetection:1})}return e})();function ev(e,a){e&1&&(ja$1(0,`span`,1),yT(1,`RESTART_REQUIRED`),lf())}function iv(e,a){e&1&&(ja$1(0,`span`,1),yT(1,`RESET_HACKING
+copia/127.0.0.1_3000/main.js:4518:`],changeDetection:1})}return e})();var no=(()=>{class e{http=p$1(iD);hostServer=L$.hostServer;host=this.hostServer+`/rest/admin`;getApplicationVersion(){return this.
+copia/127.0.0.1_3000/main.js:4799:`],encapsulation:2})})()}return e})();var Jh=(()=>{class e{static ɵfac=function(i){return new(i||e)};static ɵmod=ie$1({type:e});static ɵinj=ne$2({imports:[Eo$1]})}
+copia/127.0.0.1_3000/main.js:5347:`],encapsulation:2})})()}return e})();var ou=(()=>{class e{static ɵfac=function(i){return new(i||e)};static ɵmod=ie$1({type:e});static ɵinj=ne$2({imports:[AD,QD,Ls
+copia/127.0.0.1_3000/main.js:7327:`],encapsulation:2})})()}return e})();var Pu=(()=>{class e{static ɵfac=function(i){return new(i||e)};static ɵdir=G$1({type:e,selectors:[[`mat-select-trigger`]],feat
+copia/127.0.0.1_3000/main.js:7428:`],encapsulation:2})})()}return e})();var Du=(()=>{class e{static ɵfac=function(i){return new(i||e)};static ɵmod=ie$1({type:e});static ɵinj=ne$2({imports:[eW,Us,_s
+copia/127.0.0.1_3000/main.js:7429:`).map(d=>{l=d.indexOf(`:`),i=d.slice(0,l).trim().toLowerCase(),n=d.slice(l+1).trim(),i&&(t[i]=t[i]?t[i]+`, `+n:n)}),t}_onWhenAddingFileFailed(a,t,i){this.onWhenAddin
+copia/127.0.0.1_3000/main.js:7433:`],changeDetection:1})}return e})();var zu=(()=>{class e{cookieService=p$1(Me$1);userService=p$1(Io);router=p$1(pe$1);route=p$1(we$1);ngZone=p$1(O$1);ngOnInit(){this.
+copia/127.0.0.1_3000/main.js:7437:`],changeDetection:1})}return e})();var Wi=(()=>{class e{http=p$1(iD);hostServer=L$.hostServer;host=this.hostServer+`/api/Products`;search(t){return this.http.get(`${
+copia/127.0.0.1_3000/main.js:7441:`],changeDetection:1})}return e})();var rx=e=>({bonus:e});A2.add(z6);var Vu=(()=>{class e{router=p$1(pe$1);ngZone=p$1(O$1);productCount=0;bonus=0;checkout(){if(localS
+copia/127.0.0.1_3000/main.js:7445:`],changeDetection:1})}return e})();var uo=(()=>{class e{http=p$1(iD);hostServer=L$.hostServer;host=this.hostServer+`/rest/track-order`;find(t){return t=encodeURIComp
+copia/127.0.0.1_3000/main.js:7449:`],changeDetection:1})}return e})();var qs=(()=>{class e{http=p$1(iD);hostServer=L$.hostServer;host=this.hostServer+`/rest/captcha`;getCaptcha(){return this.http.get(
+copia/127.0.0.1_3000/main.js:7453:`],changeDetection:1})}return e})();var Qs=(()=>{class e{http=p$1(iD);hostServer=L$.hostServer;host=this.hostServer+`/api/SecurityAnswers`;save(t){return this.http.po
+copia/127.0.0.1_3000/main.js:7457:`],changeDetection:1})}return e})();var Uu=()=>({length:`5-40`});var Ux=()=>({value:8});var jx=(e,a)=>a.id;function Gx(e,a){e&1&&(ja$1(0,`mat-error`),yT(1),FT(2,`tran
+copia/127.0.0.1_3000/main.js:7461:`],changeDetection:1})}return e})();var Gu=()=>({length:`5-40`});var t1=()=>({value:8});function e1(e,a){if(e&1&&(ja$1(0,`p`,6),yT(1),lf()),e&2){let t=GS();Ei$3(),Sy(
+copia/127.0.0.1_3000/main.js:7465:`],changeDetection:1})}return e})();var fo=(()=>{class e{http=p$1(iD);hostServer=L$.hostServer;host=this.hostServer+`/rest/products`;get(t){return this.http.get(`${th
+copia/127.0.0.1_3000/main.js:7469:`],changeDetection:1})}return e})();var $u=e=>({length:e});var h1=(e,a)=>a._id;function u1(e,a){if(e&1&&(ja$1(0,`div`,7),FT(1,`translate`),ja$1(2,`span`,22),iy(3,`i`,
+copia/127.0.0.1_3000/main.js:7477:`],changeDetection:1})}return e})();var k1=(e,a)=>a.id;function M1(e,a){if(e&1&&(ja$1(0,`div`)(1,`span`),yT(2),FT(3,`translate`),lf(),iy(4,`span`,7),lf()),e&2){let t=
+
+## Rutas de API referenciadas en el código del cliente
+      3 /rest/basket/
+      2 /rest/deluxe-membership
+      2 /rest/admin
+      1 /rest/web3
+      1 /rest/wallet/balance
+      1 /rest/user/whoami
+      1 /rest/user/security-question
+      1 /rest/user/reset-password
+      1 /rest/user/login
+      1 /rest/user/change-password
+      1 /rest/user/authentication-details/
+      1 /rest/user
+      1 /rest/track-order
+      1 /rest/tags
+      1 /rest/saveLoginIp
+      1 /rest/repeat-notification
+      1 /rest/products/search
+      1 /rest/products
+      1 /rest/passkey
+      1 /rest/order-history
+      1 /rest/memories
+      1 /rest/languages
+      1 /rest/image-captcha/
+      1 /rest/country-mapping
+      1 /rest/continue-code-fixIt/apply/
+      1 /rest/continue-code-fixIt
+      1 /rest/continue-code-findIt/apply/
+      1 /rest/continue-code-findIt
+      1 /rest/continue-code/apply/
+      1 /rest/continue-code
+      1 /rest/chat
+      1 /rest/captcha
+      1 /rest/2fa/verify
+      1 /rest/2fa/status
+      1 /rest/2fa/setup
+      1 /rest/2fa/disable
+      1 /api/Users
+      1 /api/SecurityQuestions
+      1 /api/SecurityAnswers
+      1 /api/Recycles
+
+## Archivos con extensiones sensibles
+hts-cache/doit.log
+hts-cache/new.zip
+
+## robots.txt
+User-agent: *
+Disallow: /ftp
