@@ -1,2 +1,4 @@
 ﻿ID hallazgo;Caso origen;Descripción y activo afectado;Referencia (ATT&CK / OWASP / CWE);P;I;Severidad (P × I);Control relacionado;Recomendación;Estado
 H-JS-__;CP-JS-__;;;;;;;;Abierto
+H-001-01;CP-001-02;Kali de evaluación con 1684 paquetes desactualizados;CWE-1104 (componentes sin mantenimiento);2;2;4 · Medio;ISO/IEC 27001 A.8.8 (gestión de vulnerabilidades técnicas);Actualizar antes de cada ciclo y registrar versión;Abierto
+H-001-02;CP-001-02;Usuario kali en el grupo docker (privilegios equivalentes a root);CWE-250 (ejecución con privilegios innecesarios);1;3;3 · Bajo;ISO/IEC 27001 A.8.2 (derechos de acceso privilegiado);"Aceptar en VM aislada; usar sudo docker en equipos compartidos";Aceptado

@@ -1,2 +1,4 @@
 ﻿ID acción;Hallazgo;Medida de tratamiento;Opción;Responsable;Fecha compromiso;Indicador de verificación;Caso de re-test;Estado;Resultado de la verificación
 M-JS-__;H-JS-__;;Mitigar / evitar / transferir / aceptar;;;;CP-JS-__;Planificado;Pendiente
+M-001-01;H-001-01;Ejecutar sudo apt full-upgrade y volver a documentar el entorno;Mitigar;Analista ofensivo;2026-11-27;0 paquetes pendientes en apt list --upgradable;CP-001-02;Planificado;Pendiente
+M-001-02;H-001-02;Riesgo aceptado: la VM es de uso exclusivo y en red NAT;Aceptar;Coordinador de evaluación;2026-11-25;VM sin red puente ni usuarios adicionales;CP-001-02;Cerrado;Aceptación documentada
