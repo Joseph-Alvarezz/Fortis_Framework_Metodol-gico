@@ -37,13 +37,13 @@ flowchart LR
 
 | ID | Laboratorio | Dominio | Enfoque | Estado |
 |---|---|---|---|---|
-| [FC-LAB-001](laboratorios/lab-01-shell/) | Comandos Shell y Kali Linux | D01 | Transversal | Desarrollado |
-| [FC-LAB-002](laboratorios/lab-02-dns/) | DNS Footprinting con nslookup y dig | D02 | Ofensivo controlado | Desarrollado |
-| [FC-LAB-003](laboratorios/lab-03-httrack/) | Clonación controlada HTTrack | D03 | Ofensivo/defensivo | Desarrollado |
-| [FC-LAB-004](laboratorios/lab-04-esteganografia/) | Esteganografía con Steghide: partes 1–3 | D06 | Forense y colaborativo | Desarrollado |
-| [FC-LAB-005](laboratorios/lab-05-ingenieria-social/) | Ingeniería social: principios | D05 | Factor humano | Desarrollado |
-| [FC-LAB-006](laboratorios/lab-06-maltego/) | Maltego: instalación y aplicación | D02 | OSINT | Desarrollado |
-| [FC-LAB-007](laboratorios/lab-07-burp/) | Burp Suite | D03/D04 | Pruebas web | Desarrollado |
+| [FC-LAB-001](laboratorios/lab-01-shell/) | Comandos Shell y Kali Linux | D01 | Transversal | Documentado (v1.0) |
+| [FC-LAB-002](laboratorios/lab-02-dns/) | DNS Footprinting con nslookup y dig | D02 | Ofensivo controlado | Documentado (v1.0) |
+| [FC-LAB-003](laboratorios/lab-03-httrack/) | Clonación controlada HTTrack | D03 | Ofensivo/defensivo | Documentado (v1.0) |
+| [FC-LAB-004](laboratorios/lab-04-esteganografia/) | Esteganografía con Steghide: partes 1–3 | D06 | Forense y colaborativo | Documentado (v1.0) |
+| [FC-LAB-005](laboratorios/lab-05-ingenieria-social/) | Ingeniería social: principios | D05 | Factor humano | Documentado (v1.0) |
+| [FC-LAB-006](laboratorios/lab-06-maltego/) | Maltego: instalación y aplicación | D02 | OSINT | Documentado (v1.0) |
+| [FC-LAB-007](laboratorios/lab-07-burp/) | Burp Suite | D03/D04 | Pruebas web | Documentado (v1.0) |
 | [FC-LAB-008](laboratorios/lab-08-deteccion/) | Detección y análisis de registros (Sysmon / Wazuh) | D07 | Defensivo / Purple | Propuesto |
 | [FC-LAB-009](laboratorios/lab-09-apis/) | Pruebas de APIs REST: autenticación y control de acceso | D04 | Ofensivo controlado | Propuesto |
 | [FC-LAB-010](laboratorios/lab-10-ia-prompt-injection/) | Prompt injection en aplicaciones con LLM | D08 | Seguridad de IA | Propuesto |
