@@ -7,3 +7,4 @@ M-002-02;H-002-02;Eliminar TXT/RP/HINFO/LOC innecesarios y separar vista interna
 M-003-03;H-003-03;"Poner un proxy inverso (nginx) delante de Juice Shop con access_log y limit_req; alertar por agente o volumen";Mitigar;Analista defensivo;2026-12-04;Solicitudes de FORTIS-LAB03 visibles en el registro;CP-003-03;Planificado;Pendiente
 M-003-01;H-003-01;Verificar autorización en servidor de las rutas sensibles;Mitigar;Analista ofensivo / defensivo;2026-12-04;CP-007-01 devuelve 403/404;CP-007-01;Planificado;Pendiente
 M-004-01;H-004-01;Mantener línea base de hashes de archivos críticos y verificarla periódicamente (FIM);Mitigar;Analista defensivo;2026-12-11;Alteración detectada en el 100 % de los archivos modificados de prueba;CP-004-02;Planificado;Pendiente
+M-005-01;H-005-01;Repetir el ejercicio con 10 mensajes nuevos exigiendo principio, canal e indicadores;Mitigar;Evaluador;2026-12-11;≥ 80 % de aciertos con indicadores correctos;CP-005-02;Planificado;Pendiente
