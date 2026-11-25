@@ -9,7 +9,7 @@ Integridad de los archivos generados comprobada con `lab03.sha256` (todos `OK`).
 | Caso | Resultado observado | Evidencia (ID) | Hallazgo | Severidad | Estado |
 |---|---|---|---|---|---|
 | CP-003-01 | Copia parcial: 148 archivos, 5.9 MB en 1 min 57 s (profundidad 3, 2 conexiones, 50 KB/s). La clonación se detuvo manualmente con Ctrl + C | EV-003-01-01, 02 | — | — | Cumplido parcialmente |
-| CP-003-02 | 40 rutas de API visibles en el código del cliente, incluidas rutas administrativas y de usuarios; `robots.txt` revela `/ftp` | EV-003-02-01 a 03 | H-003-01, H-003-02 | 6 · Medio | Cumplido |
+| CP-003-02 | 40 rutas de API visibles en el código del cliente, incluidas rutas administrativas y de usuarios; `robots.txt` revela `/ftp` | EV-003-02-01, 02 | H-003-01, H-003-02 | 6 · Medio | Cumplido |
 | CP-003-03 | 0 solicitudes del agente `FORTIS-LAB03` en los registros del servidor: la clonación no fue detectable | EV-003-03-01, 02 | H-003-03 | 8 · Alto | No cumple el control |
 
 ## CP-003-01 · Clonación
