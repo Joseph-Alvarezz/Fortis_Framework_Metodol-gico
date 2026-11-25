@@ -1,0 +1,5 @@
+200 /
+200 /rest/products/search?q=
+200 /rest/languages
+200 /api/Quantitys
+200 /rest/admin/application-version
