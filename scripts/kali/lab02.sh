@@ -14,8 +14,9 @@ for vuelta in 1 2; do
   done > "$E/registros-ejecucion$vuelta.txt"
 done
 cat "$E/registros-ejecucion1.txt"
-if diff -q "$E/registros-ejecucion1.txt" "$E/registros-ejecucion2.txt" >/dev/null; then
-  ok "Dos ejecuciones idénticas (criterio de reproducibilidad)" | tee -a "$E/contexto.txt"
+# Se ignora el TTL (columna 2), que disminuye entre consultas por la caché del resolvedor
+if diff -q <(awk '{$2="";print}' "$E/registros-ejecucion1.txt") <(awk '{$2="";print}' "$E/registros-ejecucion2.txt") >/dev/null; then
+  ok "Dos ejecuciones idénticas, sin contar el TTL (criterio de reproducibilidad)" | tee -a "$E/contexto.txt"
 else
   aviso "Las dos ejecuciones difieren (revisa TTL o balanceo)" | tee -a "$E/contexto.txt"
 fi

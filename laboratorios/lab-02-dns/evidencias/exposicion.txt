@@ -1,0 +1,35 @@
+_acme-challenge.zonetransfer.me. 301 IN	TXT	"6Oa05hbUJ9xSsvYy7pApQvwCUSSGgxvrbdizjePEsZI"
+cmdexec.zonetransfer.me. 300	IN	TXT	"; ls"
+contact.zonetransfer.me. 2592000 IN	TXT	"Remember to call or email Pippa on +44 123 4567890 or pippa@zonetransfer.me when making DNS changes"
+dr.zonetransfer.me.	300	IN	LOC	53 20 56.558 N 1 38 33.526 W 0.00m 1m 10000m 10m
+DZC.zonetransfer.me.	7200	IN	TXT	"AbCdEfG"
+fwd.zonetransfer.me.	200	IN	TXT	"forward-domain=https://digi.ninja/projects/zonetransferme"
+Hello.zonetransfer.me.	7200	IN	TXT	"Hi to Josh and all his class"
+Info.zonetransfer.me.	7200	IN	TXT	"ZoneTransfer.me service provided by Robin Wood - robin@digi.ninja. See http://digi.ninja/projects/zonetransferme for more information."
+robinwood.zonetransfer.me. 302	IN	TXT	"Robin Wood"
+rp.zonetransfer.me.	321	IN	RP	robin.zonetransfer.me. robinwood.zonetransfer.me.
+_sip._tcp.zonetransfer.me. 14000 IN	SRV	0 0 5060 www.zonetransfer.me.
+sqli.zonetransfer.me.	300	IN	TXT	"' or 1=1 --"
+sshock.zonetransfer.me.	7200	IN	TXT	"() { :]}; echo ShellShocked"
+staging.zonetransfer.me. 7200	IN	CNAME	www.sydneyoperahouse.com.
+testing.zonetransfer.me. 301	IN	CNAME	www.zonetransfer.me.
+xss.zonetransfer.me.	300	IN	TXT	"'><script>alert('Boo')</script>"
+zonetransfer.me.	300	IN	HINFO	"Casio fx-700G" "Windows XP"
+zonetransfer.me.	301	IN	TXT	"google-site-verification=tyP28J7JAUHA9fw2sHXMgcCC0I6XBmmoVi04VlMewxA"
+Tipos encontrados en la zona:
+     26 A
+     24 TXT
+     14 MX
+      8 NS
+      4 SOA
+      4 NAPTR
+      4 CNAME
+      4 AFSDB
+      4 AAAA
+      2 SRV
+      2 RP
+      2 PTR
+      2 LOC
+      2 HINFO
+      2 DNSKEY
+      2 CERT
